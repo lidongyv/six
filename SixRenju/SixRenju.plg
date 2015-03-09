@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SixRenju - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP52F9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/SixRenju.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\机器博弈\多个版本\MySixRenju\SixRenju\SearchEngine.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP52F9.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP52FA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SixRenju.pdb" /debug /machine:I386 /out:"Debug/SixRenju.exe" /pdbtype:sept 
+".\Debug\Eveluation.obj"
+".\Debug\HistoryHeuristic.obj"
+".\Debug\MoveGenerator.obj"
+".\Debug\NegamaxEngine.obj"
+".\Debug\NewGame.obj"
+".\Debug\SearchEngine.obj"
+".\Debug\SixRenju.obj"
+".\Debug\SixRenjuDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SixRenju.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP52FA.tmp"
+<h3>Output Window</h3>
+Compiling...
+SearchEngine.cpp
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AA9.tmp" with contents
+[
+/nologo /o"Debug/SixRenju.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\Eveluation.sbr"
+".\Debug\HistoryHeuristic.sbr"
+".\Debug\MoveGenerator.sbr"
+".\Debug\NegamaxEngine.sbr"
+".\Debug\NewGame.sbr"
+".\Debug\SearchEngine.sbr"
+".\Debug\SixRenju.sbr"
+".\Debug\SixRenjuDlg.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AA9.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SixRenju.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
